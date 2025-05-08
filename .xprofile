@@ -1,0 +1,7 @@
+nitrogen --restore &
+xrandr --output DisplayPort-1 --mode 3840x2160 --rate 120 --right-of DisplayPort-0
+protonmail-bridge --no-window &
+dunst &
+picom &
+xset s off -dpms
+xrdb ~/.Xresources
